@@ -1,0 +1,126 @@
+footer
+{
+   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.f-wrapper
+{
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+    background: rgb(148, 224, 138);
+    flex-wrap: wrap;
+}
+
+footer .f-wrapper .container
+{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+footer .container .sec.aboutus
+{
+    width: 30%;
+    margin-right: 30px;
+}
+
+footer .container h2
+{
+    margin-bottom: 15px;
+}
+
+.quickLinks
+{
+    position: relative;
+    width: 25%;
+    margin-bottom: 15px;
+}
+
+.quickLinks ul li
+{
+    list-style: none;
+}
+
+
+.quickLinks ul li a
+{
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.contact ul li
+{
+   list-style: none;
+   margin-bottom: 10px;
+}
+
+.contact .social-link
+{
+    display: flex;
+    gap: 1rem;
+}
+
+.contact .social-link a
+{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(38, 125, 38);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+
+.copyrightText
+{
+    width: 100%;
+    background-color:rgb(122, 209, 111) ;
+    padding: 8px 100px;
+    text-align: center;
+}
+
+@media (max-width: 991px)
+{
+    .f-wrapper
+    {
+        padding: 40px;
+    }
+
+    footer .f-wrapper .container
+    {
+        flex-direction: column;
+    }
+
+    footer .f-wrapper .container .sec
+    {
+        margin-right: 0;
+        margin-bottom: 40px;
+    }
+
+    footer .f-wrapper .container .sec.aboutus,.quickLinks,.contact
+    {
+        width: 100%;
+    }
+
+    .copyrightText
+{
+   
+    padding: 8px 40px;
+    
+}
+
+}
+
+
+
+
+
