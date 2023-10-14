@@ -2,6 +2,7 @@ import React from "react";
 import "./navbar.css";
 import Home from "../Home/Home";
 import About from "../About/About";
+import Products from "../Products/Products"
 
 const Navbar = () => {
   return (
@@ -30,6 +31,7 @@ const Navbar = () => {
       </header>
       <Home />
       <About />
+      <Products />
     </div>
   );
 };
