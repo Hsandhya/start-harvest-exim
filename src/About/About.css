@@ -1,0 +1,24 @@
+.about-main{
+    display: flex;
+    flex-direction: row;
+    
+}
+.left-pane,.right-pane{
+    width: 50%;
+
+}
+
+
+.about-image{
+    width: 100%;
+}
+.right-pane{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;
+    padding-left: 1rem;
+}
+.right-pane h2{
+    color: green;
+}

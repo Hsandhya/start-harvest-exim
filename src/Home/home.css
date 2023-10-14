@@ -1,0 +1,24 @@
+.carousel-image1{
+    width: 100%;
+    padding-left: 2rem;
+}
+
+.carousel-image2{
+    width: 85%;
+    padding-left: 6rem ;
+    margin-left: 5rem;
+} 
+.carousel-image3{
+    width: 100%;
+    /* padding-left: 6rem ;
+    margin-left: 5rem; */
+} 
+
+.slick-dots .slick-active >button{
+    background-color: green !important;
+
+}
+
+.slick-dots button{
+    background-color: rgb(138, 255, 138) !important;
+}

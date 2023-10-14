@@ -22,6 +22,8 @@ function App() {
 // </>
 // </Router>
 <>
+<Navbar />
+{/* <Home /> */}
 
 <Footer/>
 </>

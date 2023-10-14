@@ -11,6 +11,16 @@ header
     display: flex;
     justify-content: space-between;
     padding: 20px 5%;
+
+}
+
+.nav-header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: azure;
+
 }
 
 .logo
@@ -43,6 +53,11 @@ header
 {
     display: flex;
     gap: 1rem;
+    color: #808080;
+}
+.topNav-left>div:hover
+{
+    color: green;
 }
 
 .header-top
@@ -55,4 +70,9 @@ header
 {
     display: flex;
     gap: 0.5rem;
+    color: #808080
+
 }
+.topNav-right .anticon:hover {
+    color: green !important;
+}   
