@@ -1,0 +1,84 @@
+.router-main {
+  height: 40vh;
+  background-image: url(../assets/backImg.png);
+  /* background-size: 100% auto; */
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.image-class {
+  backdrop-filter: brightness(0.5);
+}
+.inner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.gallery {
+  --g: 8px; /* the gap */
+
+  display: grid;
+  clip-path: inset(1px); /* to avoid visual glitchs */
+}
+.gallery > img {
+  --_p: calc(-1 * var(--g));
+  grid-area: 1/1;
+  width: 350px; /* control the size */
+  aspect-ratio: 1;
+  cursor: pointer;
+  transition: 0.4s 0.1s;
+}
+.gallery > img:first-child {
+  clip-path: polygon(0 0, calc(100% + var(--_p)) 0, 0 calc(100% + var(--_p)));
+}
+.gallery > img:last-child {
+  clip-path: polygon(
+    100% 100%,
+    100% calc(0% - var(--_p)),
+    calc(0% - var(--_p)) 100%
+  );
+}
+.gallery:hover > img:last-child,
+.gallery:hover > img:first-child:hover {
+  --_p: calc(50% - var(--g));
+}
+.gallery:hover > img:first-child,
+.gallery:hover > img:first-child:hover + img {
+  --_p: calc(-50% - var(--g));
+}
+
+.about-image {
+  width: 100%;
+}
+.right-pane {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1.5rem;
+  padding-left: 1rem;
+}
+.right-pane h2 {
+  color: green;
+}
+
+.notfound {
+  position: relative;
+  background-image: url(../assets/notfound.png);
+  background-size: 100% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.notfount-text {
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #000;
+}

@@ -32,10 +32,11 @@ const About = () => {
             <p style={{paddingRight:'20px',color:'green'}}>We ensure that providing the best and premium services</p>
           </div>
           </div>
-          <div>
+          <div className='about-button'>
             <Button style={{background:'green',color:'white',width:'10rem'}}>Explore now</Button>
           </div>
       </div>
+
     </div>
   )
 }
