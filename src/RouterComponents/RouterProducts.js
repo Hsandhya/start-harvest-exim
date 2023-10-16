@@ -12,8 +12,8 @@ import onion1 from "../assets/onion-1565604_1280.jpg";
 import onion2 from "../assets/onion-899102_1280.jpg";
 import garlic1 from "../assets/garlic-2097759_1280.jpg";
 import garlic2 from "../assets/garlic-3419544_1280.jpg";
-import gnuts1 from "../assets/delicious-4803127_1280.jpg";
-import gnuts2 from "../assets/food-3055647_1280.jpg";
+import gnuts1 from "../assets/peanuts-1234e.png";
+import gnuts2 from "../assets/bold-peanut.jpg";
 import coco1 from "../assets/coconut-2675546_1280.jpg";
 import coco2 from "../assets/coconut-1771527_1280.jpg";
 import turm1 from "../assets/turmeric-3251560_1280.jpg";
@@ -70,7 +70,7 @@ const RouterProducts = () => {
             <h4>
               PEANUTS <img style={{ width: "8%" }} src={line} />
             </h4>
-            <h2>Experience the Crunchy Deliciousness of Groundnuts</h2>
+            <h2>Experience the Crunchy Deliciousness of Peanuts</h2>
             <p>
               "At Star Harvest Exim, we specialize in sourcing and delivering
               top-quality peanuts renowned for their crispiness and delicious
