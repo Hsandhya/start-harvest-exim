@@ -40,7 +40,8 @@
    flex-direction: column;
    margin: 4rem;
    align-items: center;
-   padding-top: 5rem;
+   padding-top: 4rem;
+   
    gap: 1rem;
 }
 
@@ -84,6 +85,28 @@
 
 @media (max-width: 991px)
 {
-    
+    .co-wrapper
+    {
+        
+    flex-direction: column;
+    padding: 0 0;
+
+    }
+
+    .contact-main h2
+    {
+        text-align: center;
+    }
+
+    .co-left
+    {
+      align-items: center;
+    }
+
+    .co-right
+    {
+        width: auto;
+        scale: 90%;
+    }
 }
 
