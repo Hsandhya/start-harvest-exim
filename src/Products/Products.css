@@ -1,11 +1,10 @@
-.product-top{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:center ;
-    padding-top: 5rem;
+.product-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
 }
-
 
 .card {
   position: relative;
@@ -24,10 +23,10 @@
   height: 320px;
 }
 .card:hover .content-text {
-    display: none;
+  display: none;
 }
-.card .img .content-text{
-    display: block;
+.card .img .content-text {
+  display: block;
 }
 
 .imgbox {
@@ -44,13 +43,13 @@
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
 }
 
-.content-text{
-    font-family: cursive;
-    font-size: 16px;
-    font-weight: 500;
-    color: green;
-    display: flex;
-    justify-content: center;
+.content-text {
+  font-family: cursive;
+  font-size: 16px;
+  font-weight: 500;
+  color: green;
+  display: flex;
+  justify-content: center;
 }
 
 .content {
@@ -70,9 +69,114 @@
   color: green;
 }
 
-.product-content{
+.product-content {
+  display: flex;
+  justify-content: center;
+  padding-top: 5rem;
+  gap: 6rem;
+}
+
+.parallax-container {
+  height: 20vh;
+  background-image: url("../assets/pexels-sarath-raj-4095301.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.parallax-content {
+  position: relative;
+  z-index: 1;
+}
+
+.products-mobile {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .products-mobile {
+    display: block;
+  }
+  .products-mobile h4 {
+    font-size: 12px;
+  }
+
+  .products-mobile h2 {
+    font-size: 18px;
+  }
+  .product-content {
+    display: none;
+  }
+  .parallax-container {
     display: flex;
     justify-content: center;
-    padding-top: 5rem;
-    gap: 6rem;
+    align-items: center;
+  }
+
+  .product-top h1 {
+    padding: 20px;
+  }
+
+  .parallax-container2 {
+    height: 20vh;
+    background-image: url("../assets/pexels-tamanna-rumee-7988015.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parallax-container3 {
+    height: 20vh;
+    background-image: url("../assets/pexels-samer-daboul-1652002.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parallax-container4 {
+    height: 20vh;
+    background-image: url("../assets/pexels-nick-collins-1392585.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parallax-container5 {
+    height: 20vh;
+    background-image: url("../assets/pexels-kindel-media-7456550.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parallax-container6 {
+    height: 20vh;
+    background-image: url("../assets/peanuts-618547_1280.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

@@ -1,115 +1,129 @@
-li, a
-{
-    font-weight: 500;
-    font-size: 17px;
-    color: black;
-    text-decoration: none;
+li,
+a {
+  font-weight: 500;
+  font-size: 17px;
+  color: black;
+  text-decoration: none;
 }
 
-header
-{
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 5%;
-
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 5%;
 }
 
-.nav-header{
-    position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    z-index: 999;
-    background-color: azure;
-
+.nav-header {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  background-color: azure;
 }
 
-.logo
-{
-    cursor: pointer;
+.logo {
+  cursor: pointer;
 }
 
-.nav_links
-{
-    list-style: none;
+.nav_links {
+  list-style: none;
 }
 
-.nav_links li
-{
-    display: inline-block;
-    padding: 0px 20px;
+.nav_links li {
+  display: inline-block;
+  padding: 0px 20px;
 }
 
-.nav_links li a
-{
-    transition: all 0.3s ease 0s;
+.nav_links li a {
+  transition: all 0.3s ease 0s;
 }
 
-.nav_links li a:hover
-{
-    color: rgb(34, 134, 34);
+.nav_links li a:hover {
+  color: rgb(34, 134, 34);
 }
 
-.topNav-left
-{
-    display: flex;
-    gap: 1rem;
-    color: #808080;
+.topNav-left {
+  display: flex;
+  gap: 1rem;
+  color: #808080;
 }
-.topNav-left>div:hover
-{
-    color: green;
+.topNav-left > div:hover {
+  color: green;
 }
 
-.header-top
-{
-    font-size: 15px;
-    border-bottom: 1px solid rgb(200, 200, 200);
+.header-top {
+  font-size: 15px;
+  border-bottom: 1px solid rgb(200, 200, 200);
 }
 
-.topNav-right
-{
-    display: flex;
-    gap: 0.5rem;
-    color: #808080
-
+.topNav-right {
+  display: flex;
+  gap: 0.5rem;
+  color: #808080;
 }
 .topNav-right .anticon:hover {
-    color: green !important;
-}   
+  color: green !important;
+}
 
 /* Styling the navigation links */
 .nav_links {
-    list-style: none;
-    padding: 0;
-    display: flex;
-    margin-top: 15px;
-  }
-  
-  .nav-link {
-    text-decoration: none;
-    color: #333; /* Default link color */
-    position: relative;
-    margin-right: 20px; /* Add some spacing between links */
-  
-    /* Create the underline effect */
-    &:before {
-      content: '';
-      position: absolute;
-      width: 0;
-      height: 2px;
-      bottom: 0;
-      left: 0;
-      background-color: #00FF00; /* Green underline color */
-      transition: width 0.3s ease;
-    }
-  
-    /* Hover effect */
-    &:hover:before {
-      width: 100%;
-    }
+  list-style: none;
+  padding: 0;
+  display: flex;
+  margin-top: 15px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #333; /* Default link color */
+  position: relative;
+  margin-right: 20px; /* Add some spacing between links */
+
+  /* Create the underline effect */
+  &:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #00ff00; /* Green underline color */
+    transition: width 0.3s ease;
   }
 
-  
-  .active {
-    color: green; 
+  /* Hover effect */
+  &:hover:before {
+    width: 100%;
   }
+}
+
+.active {
+  color: green;
+}
+
+.nav-header-mobile {
+  display: none;
+}
+
+@media (max-width: 500px) {
+  .nav-header-mobile {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-header {
+    display: none;
+  }
+  .logo {
+    width: 15% !important;
+  }
+  .nav_links {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    color: white;
+  }
+  .menu-drawer .ant-drawer-header-title {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
