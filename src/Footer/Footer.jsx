@@ -17,10 +17,7 @@ const Footer = () => {
             <div className="sec aboutus">
               <h2>About Us</h2>
               <p>
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Suscipit quae, quisquam et ducimus nostrum eos, voluptas iste
-                neque harum modi nobis sequi excepturi quo id voluptates tenetur
-                inventore libero perspiciatis.
+              At Star Harvest Exim, we believe in the power of global connections, the authenticity of quality products, and the satisfaction of our clients. Established in 2023, our journey in the import and export industry has been marked by dedication, integrity, and a relentless pursuit of excellence.
               </p>
             </div>
 
@@ -31,13 +28,13 @@ const Footer = () => {
                   <a href="">Home</a>
                 </li>
                 <li>
-                  <a href="">About</a>
+                  <a href="/about-us">About</a>
                 </li>
                 <li>
-                  <a href="">Our Products</a>
+                  <a href="/products">Our Products</a>
                 </li>
                 <li>
-                  <a href="">Services</a>
+                  <a href="/certificates">Certificates</a>
                 </li>
               </ul>
             </div>

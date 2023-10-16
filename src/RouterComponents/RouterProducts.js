@@ -1,10 +1,10 @@
 import React from "react";
 import "./RouterComponent.css";
-import image1 from "../assets/peanuts-618547_1280.jpg";
+import image1 from "../assets/bold-peanut.jpg";
 import image2 from "../assets/pexels-kindel-media-7456550.jpg";
 import image3 from "../assets/pexels-nick-collins-1392585.jpg";
 import image4 from "../assets/pexels-samer-daboul-1652002.jpg";
-import image5 from "../assets/pexels-sarath-raj-4095301.jpg";
+import image5 from "../assets/Cashew.png";
 import image6 from "../assets/pexels-tamanna-rumee-7988015.jpg";
 
 import line from "../assets/line.png";
@@ -68,12 +68,12 @@ const RouterProducts = () => {
           </div>
           <div className="right-pane">
             <h4>
-              GROUND NUTS <img style={{ width: "8%" }} src={line} />
+              PEANUTS <img style={{ width: "8%" }} src={line} />
             </h4>
             <h2>Experience the Crunchy Deliciousness of Groundnuts</h2>
             <p>
               "At Star Harvest Exim, we specialize in sourcing and delivering
-              top-quality groundnuts renowned for their crispiness and delicious
+              top-quality peanuts renowned for their crispiness and delicious
               taste. "{" "}
             </p>
           </div>
