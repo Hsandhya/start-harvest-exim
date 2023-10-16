@@ -126,6 +126,7 @@ const Home = () => {
       </div>
       <About />
       <Products />
+      <Contact />
       <Footer />
     </div>
   );

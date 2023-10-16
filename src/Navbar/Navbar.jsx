@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./navbar.css";
 import Home from "../Home/Home";
 import { Button, Drawer, FloatButton } from "antd";
 import { ArrowUpOutlined, MenuOutlined } from "@ant-design/icons";
