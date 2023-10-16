@@ -3,7 +3,7 @@ footer {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
-  min-height: 100vh;
+  
 }
 
 .f-wrapper {
@@ -44,6 +44,12 @@ footer .container h2 {
 .quickLinks ul li a {
   margin-bottom: 10px;
   display: inline-block;
+}
+
+.quickLinks ul li a:hover
+{
+  color: rgb(20, 52, 5);
+  font-size: large;
 }
 
 .contact ul li {

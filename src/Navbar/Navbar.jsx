@@ -10,7 +10,7 @@ import {
 } from "react-router-dom";
 import RouterAboutUs from "../RouterComponents/RouterAboutUs";
 import RouterContactUs from "../RouterComponents/RouterContactUs";
-import RouterCerticates from "../RouterComponents/RouterCerticates";
+import RouterCertificates from "../RouterComponents/RouterCertificates";
 import RouterProducts from "../RouterComponents/RouterProducts";
 import NotFound from "../RouterComponents/NotFound";
 import logo from "../assets/logoIcon.png";
@@ -161,7 +161,7 @@ const Navbar = () => {
           <Route path="/products" element={<RouterProducts />} />
           <Route path="/about-us" element={<RouterAboutUs />} />
           <Route path="/contact-us" element={<RouterContactUs />} />
-          <Route path="/certificates" element={<RouterCerticates />} />
+          <Route path="/certificates" element={<RouterCertificates />} />
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
         </Routes>

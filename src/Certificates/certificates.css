@@ -1,0 +1,15 @@
+.certificate
+{
+    display: flex;
+    justify-content: center;
+    height: 50rem;
+    padding-top: 4rem;
+}
+
+@media (max-width: 991px)
+{
+    .certificate
+    {
+        width: 100%;
+    }
+}
