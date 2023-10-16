@@ -8,6 +8,8 @@ import image3 from "../assets/pexels-nick-collins-1392585.jpg";
 import image4 from "../assets/pexels-samer-daboul-1652002.jpg";
 import image5 from "../assets/Cashew.png";
 import image6 from "../assets/pexels-tamanna-rumee-7988015.jpg";
+import image7 from "../assets/food-6080815_1280.jpg";
+import image8 from "../assets/sesame-1274906_1280.jpg";
 
 const Products = () => {
   return (
@@ -72,7 +74,7 @@ const Products = () => {
             </h2>
             <p style={{ fontSize: "13px", fontWeight: "500" }}>
               At Star Harvest Exim, we take pride in sourcing and delivering the
-              finest garlic varieties from around the world.
+              finest garlic varieties from around India.
             </p>
           </div>
         </div>
@@ -132,6 +134,42 @@ const Products = () => {
               At Star Harvest Exim, we take pride in sourcing and delivering
               high-quality turmeric that will add a burst of flavor to your
               culinary creations.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div style={{ marginTop: "5rem" }} className="product-content">
+        <div class="card">
+          <div class="imgbox">
+            <img src={image7} alt="" />
+          </div>
+          <div>
+            <span className="content-text">Black Sesame</span>
+          </div>
+
+          <div class="content">
+            <h2 style={{ fontSize: "15px" }}>
+            Discover the hidden gems of nutrition and flavor with our black sesame products
+            </h2>
+            <p style={{ fontSize: "13px", fontWeight: "500" }}>
+            Black sesame seeds are a versatile ingredient in both sweet and savory dishes. you're choosing the best for your culinary creations. 
+            </p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="imgbox">
+            <img src={image8} alt="" />
+          </div>
+          <div>
+            <span className="content-text">White Sesame</span>
+          </div>
+
+          <div class="content">
+            <h2 style={{ fontSize: "15px" }}>
+              Delightful nutty flavor to your dishes{" "}
+            </h2>
+            <p style={{ fontSize: "13px", fontWeight: "500" }}>
+            Elevate your culinary creations with the pure goodness of our white sesame seeds. Sourced from the finest fields, these seeds are renowned for their quality and versatility.
             </p>
           </div>
         </div>
@@ -260,7 +298,7 @@ const Products = () => {
               }}
             >
               "At Star Harvest Exim, we take pride in sourcing and delivering
-              the finest garlic varieties from around the world".
+              the finest garlic varieties from around India".
             </h4>
           </div>
         </div>
@@ -324,6 +362,66 @@ const Products = () => {
               "At Star Harvest Exim, we specialize in sourcing and delivering
               top-quality Peanuts renowned for their crispiness and delicious
               taste."
+            </h4>
+          </div>
+        </div>
+        <div className="parallax-container7">
+          <div className="parallax-content">
+            <h2 style={{ color: "white" }}>BLACK SESAME</h2>
+          </div>
+        </div>
+        <div
+          style={{
+            padding: "1rem",
+            display: "flex",
+            flexDirection: "column",
+            gap: "1rem",
+          }}
+        >
+          <div>
+            <h2 style={{ color: "green" }}>
+              Discover the hidden gems of nutrition and flavor with our black sesame products
+            </h2>
+          </div>
+          <div>
+            <h4
+              style={{
+                color: "black",
+                textAlign: "center",
+                fontStyle: "italic",
+              }}
+            >
+              "Black sesame seeds are a versatile ingredient in both sweet and savory dishes. you're choosing the best for your culinary creations."
+            </h4>
+          </div>
+        </div>
+        <div className="parallax-container8">
+          <div className="parallax-content">
+            <h2 style={{ color: "white" }}>WHITE SESAME</h2>
+          </div>
+        </div>
+        <div
+          style={{
+            padding: "1rem",
+            display: "flex",
+            flexDirection: "column",
+            gap: "1rem",
+          }}
+        >
+          <div>
+            <h2 style={{ color: "green" }}>
+            Delightful nutty flavor to your dishes
+            </h2>
+          </div>
+          <div>
+            <h4
+              style={{
+                color: "black",
+                textAlign: "center",
+                fontStyle: "italic",
+              }}
+            >
+              "Elevate your culinary creations with the pure goodness of our white sesame seeds. Sourced from the finest fields, these seeds are renowned for their quality and versatility.".
             </h4>
           </div>
         </div>

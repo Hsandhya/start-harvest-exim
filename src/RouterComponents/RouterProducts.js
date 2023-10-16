@@ -20,6 +20,10 @@ import turm1 from "../assets/turmeric-3251560_1280.jpg";
 import turm2 from "../assets/turmeric-3273907_1280.jpg";
 import cnuts1 from "../assets/anacardium-3523449_1280.jpg";
 import cnuts2 from "../assets/cashew-1452216_1280.jpg";
+import bsame1 from "../assets/black-sesame-6746593_1280.jpg";
+import bsame2 from "../assets/food-6080815_1280.jpg";
+import wsame1 from "../assets/sesame-1274906_1280.jpg";
+import wsame2 from "../assets/sesame-3311532_1280.jpg";
 
 const RouterProducts = () => {
   return (
@@ -96,7 +100,7 @@ const RouterProducts = () => {
             <h2>Unlock the Rich Flavors of Garlic with Star Harvest Exim</h2>
             <p>
               "At Star Harvest Exim, we take pride in sourcing and delivering
-              the finest garlic varieties from around the world."{" "}
+              the finest garlic varieties from around India."{" "}
             </p>
           </div>
         </div>
@@ -175,6 +179,59 @@ const RouterProducts = () => {
             </p>
           </div>
         </div>
+        <div
+          style={{
+            display: "flex",
+            padding: "1rem",
+            justifyContent: "space-around",
+          }}
+        >
+          <div class="gallery">
+            <img src={bsame2} alt="a wolf" />
+            <img src={bsame1} alt="a lioness" />
+          </div>
+          <div className="right-pane">
+            <h4>
+              BLACK SESAME <img style={{ width: "8%" }} src={line} />
+            </h4>
+            <h2>
+              Discover the hidden gems of nutrition and flavor with our black
+              sesame products
+            </h2>
+            <p>
+              "Black sesame seeds are a versatile ingredient in both sweet and
+              savory dishes. When you choose our black sesame products, you're
+              choosing the best for your culinary creations."
+            </p>
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            padding: "1rem",
+            justifyContent: "space-around",
+            flexDirection: "row-reverse",
+          }}
+        >
+          <div class="gallery">
+            <img src={wsame1} alt="a wolf" />
+            <img src={wsame2} alt="a lioness" />
+          </div>
+          <div className="right-pane">
+            <h4>
+              WHITE SESAME <img style={{ width: "8%" }} src={line} />
+            </h4>
+            <h2>
+              Elevate your culinary creations with the pure goodness of our
+              white sesame seeds
+            </h2>
+            <p>
+              "Our white sesame seeds add a delightful nutty flavor to your
+              dishes. Whether you're baking, cooking, or garnishing, these seeds
+              are a must-have in your pantry."
+            </p>
+          </div>
+        </div>
       </div>
       <div className="Rproduct-mobile">
         <div className="Rproduct-content">
@@ -233,7 +290,7 @@ const RouterProducts = () => {
               </h2>
               <p style={{ fontSize: "13px", fontWeight: "500" }}>
                 At Star Harvest Exim, we take pride in sourcing and delivering
-                the finest garlic varieties from around the world.
+                the finest garlic varieties from around India.
               </p>
             </div>
           </div>
@@ -299,6 +356,49 @@ const RouterProducts = () => {
                 At Star Harvest Exim, we take pride in sourcing and delivering
                 high-quality turmeric that will add a burst of flavor to your
                 culinary creations.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="Rproduct-content">
+          <div class="Rcard">
+            <div class="Rimgbox">
+              <img src={wsame2} alt="" />
+            </div>
+            <div>
+              <span className="Rcontent-text">White Sesame</span>
+            </div>
+
+            <div class="Rcontent">
+              <h2 style={{ fontSize: "15px" }}>
+                Elevate your culinary creations with the pure goodness of our
+                white sesame seeds
+              </h2>
+              <p style={{ fontSize: "13px", fontWeight: "500" }}>
+                Our white sesame seeds add a delightful nutty flavor to your
+                dishes, these seeds are a must-have in your pantry.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="Rproduct-content">
+          <div class="Rcard">
+            <div class="Rimgbox">
+              <img src={bsame2} alt="" />
+            </div>
+            <div>
+              <span className="Rcontent-text">Black Sesame</span>
+            </div>
+
+            <div class="Rcontent">
+              <h2 style={{ fontSize: "15px" }}>
+                Discover the hidden gems of nutrition and flavor with our black
+                sesame products
+              </h2>
+              <p style={{ fontSize: "13px", fontWeight: "500" }}>
+                Black sesame seeds are a versatile ingredient in both sweet and
+                savory dishes. you're choosing the best for your culinary
+                creations.
               </p>
             </div>
           </div>

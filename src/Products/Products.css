@@ -120,6 +120,7 @@
   }
 
   .parallax-container2 {
+    margin-top: 5rem;
     height: 20vh;
     background-image: url("../assets/pexels-tamanna-rumee-7988015.jpg");
     background-size: cover;
@@ -132,6 +133,7 @@
     align-items: center;
   }
   .parallax-container3 {
+    margin-top: 5rem;
     height: 20vh;
     background-image: url("../assets/pexels-samer-daboul-1652002.jpg");
     background-size: cover;
@@ -144,6 +146,7 @@
     align-items: center;
   }
   .parallax-container4 {
+    margin-top: 5rem;
     height: 20vh;
     background-image: url("../assets/pexels-nick-collins-1392585.jpg");
     background-size: cover;
@@ -156,6 +159,7 @@
     align-items: center;
   }
   .parallax-container5 {
+    margin-top: 5rem;
     height: 20vh;
     background-image: url("../assets/pexels-kindel-media-7456550.jpg");
     background-size: cover;
@@ -168,8 +172,35 @@
     align-items: center;
   }
   .parallax-container6 {
+    margin-top: 5rem;
     height: 20vh;
     background-image: url("../assets/bold-peanut.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parallax-container7 {
+    margin-top: 5rem;
+    height: 20vh;
+    background-image: url("../assets/black-sesame-6746593_1280.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .parallax-container8 {
+    margin-top: 5rem;
+    height: 20vh;
+    background-image: url("../assets/sesame-1274906_1280.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
