@@ -2,11 +2,11 @@ import React from "react";
 import "./Products.css";
 import line1 from "../assets/line.png";
 import line2 from "../assets/line2.png";
-import image1 from "../assets/peanuts-618547_1280.jpg";
+import image1 from "../assets/bold-peanut.jpg";
 import image2 from "../assets/pexels-kindel-media-7456550.jpg";
 import image3 from "../assets/pexels-nick-collins-1392585.jpg";
 import image4 from "../assets/pexels-samer-daboul-1652002.jpg";
-import image5 from "../assets/pexels-sarath-raj-4095301.jpg";
+import image5 from "../assets/Cashew.png";
 import image6 from "../assets/pexels-tamanna-rumee-7988015.jpg";
 
 const Products = () => {
@@ -26,16 +26,16 @@ const Products = () => {
             <img src={image1} alt="" />
           </div>
           <div>
-            <span className="content-text">Ground Nuts</span>
+            <span className="content-text">Peanuts</span>
           </div>
 
           <div class="content">
             <h2 style={{ fontSize: "15px" }}>
-              Experience the Crunchy Deliciousness of Groundnuts
+              Experience the Crunchy Deliciousness of Peanuts
             </h2>
             <p style={{ fontSize: "13px", fontWeight: "500" }}>
               At Star Harvest Exim, we specialize in sourcing and delivering
-              top-quality groundnuts renowned for their crispiness and delicious
+              top-quality Peanuts renowned for their crispiness and delicious
               taste.
             </p>
           </div>
@@ -297,7 +297,7 @@ const Products = () => {
         </div>
         <div className="parallax-container6">
           <div className="parallax-content">
-            <h2 style={{ color: "white" }}>GROUND NUTS</h2>
+            <h2 style={{ color: "white" }}>PEANUTS</h2>
           </div>
         </div>
         <div
@@ -310,7 +310,7 @@ const Products = () => {
         >
           <div>
             <h2 style={{ color: "green" }}>
-              Experience the Crunchy Deliciousness of Groundnuts
+              Experience the Crunchy Deliciousness of Peanuts
             </h2>
           </div>
           <div>
@@ -322,7 +322,7 @@ const Products = () => {
               }}
             >
               "At Star Harvest Exim, we specialize in sourcing and delivering
-              top-quality groundnuts renowned for their crispiness and delicious
+              top-quality Peanuts renowned for their crispiness and delicious
               taste."
             </h4>
           </div>
