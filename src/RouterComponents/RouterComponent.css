@@ -82,3 +82,86 @@
   text-align: center;
   color: #000;
 }
+
+
+
+.Rcard {
+    position: relative;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    transition: 0.3s;
+    padding: 30px 50px;
+    background: #c0ffc0;
+    cursor: pointer;
+  }
+  
+  .Rcard:hover {
+    height: 320px;
+  }
+  .Rcard:hover .Rcontent-text {
+    display: none;
+  }
+  .Rcard .img .Rcontent-text {
+    display: block;
+  }
+  
+  .Rimgbox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-80px);
+    z-index: 99;
+  }
+  
+  .Rproduct-content img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .Rcontent-text {
+    font-family: cursive;
+    font-size: 16px;
+    font-weight: 500;
+    color: green;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .Rcontent {
+    padding: 10px 20px;
+    text-align: center;
+    transform: translateY(-450px);
+    opacity: 0;
+    transition: 0.3s;
+  }
+  
+  .Rcard:hover > .Rcontent {
+    opacity: 1;
+    transform: translateY(-180px);
+  }
+  
+  .Rcontent h2 {
+    color: green;
+  }
+  
+.Rproduct-content{
+    display: flex;
+    justify-content: center;
+    padding: 6rem 0;
+}
+.Rproduct-mobile{display: none;}
+
+
+.Rproduct-web{
+    display: block;
+}
+
+@media (max-width: 500px) {
+    .Rproduct-mobile{display: block;}
+    .Rproduct-web{
+        display: none;
+    }
+}
