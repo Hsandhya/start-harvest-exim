@@ -5,6 +5,7 @@ import line from '../assets/line.png'
 import icon1 from '../assets/icons8-ok-64.png'
 import icon2 from '../assets/icons8-binoculars-64.png'
 import { Button } from 'antd'
+import cashew from '../assets/Cashew.png'
 
 
 const About = () => {

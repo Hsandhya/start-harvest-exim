@@ -7,6 +7,7 @@ import homeImage2 from "../assets/2.png";
 import homeImage3 from "../assets/3.png";
 import About from "../About/About";
 import Products from "../Products/Products";
+import Contact from '../Contact/Contact'
 import Footer from "../Footer/Footer";
 const contentStyle = {
   height: "840px",
@@ -45,6 +46,7 @@ const Home = () => {
     </div>
     <About />
     <Products />
+    <Contact/>
     <Footer />
     </div>
   );

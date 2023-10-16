@@ -1,0 +1,89 @@
+.co-wrapper
+{
+    display: flex;
+    padding: 0 10rem;
+    justify-content: space-between;
+    
+}
+
+.co-left
+{
+    
+    flex-direction: column;
+    display: flex;
+    justify-content:center ;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+
+
+
+
+.co-right
+{
+    display: flex;
+    flex-direction: column;
+   
+    width: 25rem;
+    background-color: rgb(228, 254, 236);
+    gap: .5rem;
+    padding: 1.5rem;
+    border-radius: 8px ;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+
+
+.contact-main
+{
+   display: flex;
+   flex-direction: column;
+   margin: 4rem;
+   align-items: center;
+   padding-top: 5rem;
+   gap: 1rem;
+}
+
+
+.co-left ul li
+{
+   list-style: none;
+   margin-bottom: 10px;
+}
+
+.co-left .social-link
+{
+    display: flex;
+    gap: 1rem;
+}
+
+.co-left .social-link a
+{
+    height: 35px;
+    width: 35px;
+    background-color: green;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+}
+
+.co-right h3
+{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.co-right .submit-button
+{
+    display: flex;
+    justify-content: center;
+   
+}
+
+@media (max-width: 991px)
+{
+    
+}
+
