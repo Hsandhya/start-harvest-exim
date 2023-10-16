@@ -1,3 +1,4 @@
+import { useNavigate } from 'react-router-dom'
 import React from 'react'
 import './About.css'
 import aboutImage from '../assets/About.png'
@@ -8,7 +9,14 @@ import { Button } from 'antd'
 import cashew from '../assets/Cashew.png'
 
 
+
 const About = () => {
+  
+  const navigate =useNavigate();
+  const exploreClick =()=>{
+    navigate('/products')
+
+  }
   return (
     <div className='about-main'>
       <div className='left-pane'>
@@ -34,7 +42,7 @@ const About = () => {
           </div>
           </div>
           <div className='about-button'>
-            <Button style={{background:'green',color:'white',width:'10rem'}}>Explore now</Button>
+            <Button onClick={exploreClick} style={{background:'green',color:'white',width:'10rem'}}>Explore now</Button>
           </div>
       </div>
 

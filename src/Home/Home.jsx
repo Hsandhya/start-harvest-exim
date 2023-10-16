@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Button, Carousel, FloatButton } from "antd";
 import "./home.css";
+import { useNavigate } from "react-router-dom";
 
 import homeImage1 from "../assets/1.png";
 import homeImage2 from "../assets/2.png";
@@ -29,12 +30,24 @@ const contentStyleM = {
   textAlign: "center",
   background: "#364d79",
 };
-const function1 = () => {
-  console.log("function1 triggered......................!");
-};
 
 const Home = () => {
+
+  const navigate = useNavigate();
   const [visible, setVisible] = useState(false);
+
+
+
+  const function1 = () => {
+    console.log(" function called")
+  };
+  const function2 = () => {
+    navigate('/contact-us')
+  };
+  const function3 = () => {         
+    navigate('/products')
+  };
+  
 
   // Function to scroll to the top when the button is clicked
   const scrollToTop = () => {
@@ -62,6 +75,16 @@ const Home = () => {
     console.log(currentSlide);
   };
 
+  const click1 = () => {
+    navigate('/about-us')
+  }
+  const click2 = () => {
+    navigate('/contact-us')
+  }
+  const click3 = () => {
+    navigate('/products')
+  }
+
   return (
     <div>
       {visible && (
@@ -80,26 +103,29 @@ const Home = () => {
                 className="carousel-image3"
                 src={homeImage3}
                 alt=""
+                style={{cursor:'pointer'}}
               />
             </h3>
           </div>
           <div>
             <h3 style={contentStyle}>
               <img
-                onClick={function1}
+                onClick={function2}
                 className="carousel-image2"
                 src={homeImage1}
                 alt=""
+                style={{cursor:'pointer'}}
               />
             </h3>
           </div>
           <div>
             <h3 style={contentStyle}>
               <img
-                onClick={function1}
+                onClick={function3}
                 className="carousel-image3"
                 src={homeImage2}
                 alt=""
+                style={{cursor:'pointer'}}
               />
             </h3>
           </div>
@@ -109,17 +135,17 @@ const Home = () => {
         <Carousel afterChange={onChange} autoplay>
           <div>
             <h3 style={contentStyleM}>
-              <img style={{ width: "100%" }} src={MhomeImage2} alt="" />
+              <img style={{ width: "100%" }} onClick={click1} src={MhomeImage2} alt="" />
             </h3>
           </div>
           <div>
             <h3 style={contentStyleM}>
-              <img style={{ width: "100%" }} src={MhomeImage1} />
+              <img style={{ width: "100%" }} onClick={click2} src={MhomeImage1} />
             </h3>
           </div>
           <div>
             <h3 style={contentStyleM}>
-              <img style={{ width: "100%" }} src={MhomeImage3} />
+              <img style={{ width: "100%" }} onClick={click3} src={MhomeImage3} />
             </h3>
           </div>
         </Carousel>

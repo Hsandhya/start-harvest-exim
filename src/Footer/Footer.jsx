@@ -7,6 +7,7 @@ import {
 } from "@ant-design/icons";
 import { MdLocationPin } from "react-icons/md";
 import "./Footer.css";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -17,7 +18,11 @@ const Footer = () => {
             <div className="sec aboutus">
               <h2>About Us</h2>
               <p>
-              At Star Harvest Exim, we believe in the power of global connections, the authenticity of quality products, and the satisfaction of our clients. Established in 2023, our journey in the import and export industry has been marked by dedication, integrity, and a relentless pursuit of excellence.
+                At Star Harvest Exim, we believe in the power of global
+                connections, the authenticity of quality products, and the
+                satisfaction of our clients. Established in 2023, our journey in
+                the import and export industry has been marked by dedication,
+                integrity, and a relentless pursuit of excellence.
               </p>
             </div>
 
@@ -25,16 +30,16 @@ const Footer = () => {
               <h2>Quick Links</h2>
               <ul>
                 <li>
-                  <a href="">Home</a>
+                  <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <a href="/about-us">About</a>
+                  <Link to="/about-us">About</Link>
                 </li>
                 <li>
-                  <a href="/products">Our Products</a>
+                  <Link to="/products">Our Products</Link>
                 </li>
                 <li>
-                  <a href="/certificates">Certificates</a>
+                  <Link to="/certificates">Certificates</Link>
                 </li>
               </ul>
             </div>

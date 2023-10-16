@@ -3,7 +3,7 @@ import Home from "../Home/Home";
 import { Button, Drawer, FloatButton } from "antd";
 import { ArrowUpOutlined, MenuOutlined } from "@ant-design/icons";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   NavLink,
