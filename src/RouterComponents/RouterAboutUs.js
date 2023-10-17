@@ -20,11 +20,11 @@ const RouterAboutUs = () => {
         <div>
           <div className="about-main">
             <div className="left-pane">
-              <img className="about-image" src={aboutImage} />
+              <img alt='Star Harvest Exim logo' className="about-image" src={aboutImage} />
             </div>
             <div className="right-pane">
               <h4>
-                About Us <img style={{ width: "8%" }} src={line} />
+                About Us <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
               </h4>
               <h2>Know About Our Exports & Imports</h2>
               <p>
@@ -36,7 +36,7 @@ const RouterAboutUs = () => {
               </p>
               <div style={{ display: "flex" }}>
                 <div>
-                  <img src={icon1} />
+                  <img alt='Star Harvest Exim logo' src={icon1} />
                   <h4>Product Quality</h4>
                   <p style={{ color: "green" }}>
                     We can assure you about the Quality of the products in
@@ -44,7 +44,7 @@ const RouterAboutUs = () => {
                   </p>
                 </div>
                 <div>
-                  <img src={icon2} />
+                  <img alt='Star Harvest Exim logo' src={icon2} />
                   <h4>Dedicated Services</h4>
                   <p style={{ paddingRight: "20px", color: "green" }}>
                     We ensure that providing the best and premium services

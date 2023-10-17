@@ -17,15 +17,15 @@ const Products = () => {
       <div className="product-top">
         <h3 style={{ textAlign: "center" }}>
           {" "}
-          <img style={{ width: "15%" }} src={line2} alt="" /> Our Products{" "}
-          <img style={{ width: "15%" }} src={line1} alt="" />
+          <img alt='Star Harvest Exim logo' style={{ width: "15%" }} src={line2} /> Our Products{" "}
+          <img alt='Star Harvest Exim logo' style={{ width: "15%" }} src={line1} />
         </h3>
         <h1 style={{ color: "green" }}>Healthy products for day-to-day life</h1>
       </div>
       <div className="product-content">
         <div class="card">
           <div class="imgbox">
-            <img src={image1} alt="" />
+            <img alt='Star Harvest Exim logo' src={image1} />
           </div>
           <div>
             <span className="content-text">Peanuts</span>
@@ -44,7 +44,7 @@ const Products = () => {
         </div>
         <div class="card">
           <div class="imgbox">
-            <img src={image2} alt="" />
+            <img alt='Star Harvest Exim logo' src={image2}/>
           </div>
           <div>
             <span className="content-text">Onions</span>
@@ -62,7 +62,7 @@ const Products = () => {
         </div>
         <div class="card">
           <div class="imgbox">
-            <img src={image3} alt="" />
+            <img alt='Star Harvest Exim logo' src={image3} />
           </div>
           <div>
             <span className="content-text">Garlics</span>
@@ -82,7 +82,7 @@ const Products = () => {
       <div style={{ marginTop: "5rem" }} className="product-content">
         <div class="card">
           <div class="imgbox">
-            <img src={image4} alt="" />
+            <img alt='Star Harvest Exim logo' src={image4} />
           </div>
           <div>
             <span className="content-text">Coconuts</span>
@@ -101,7 +101,7 @@ const Products = () => {
         </div>
         <div class="card">
           <div class="imgbox">
-            <img src={image5} alt="" />
+            <img alt='Star Harvest Exim logo' src={image5} />
           </div>
           <div>
             <span className="content-text">Cashews</span>
@@ -120,7 +120,7 @@ const Products = () => {
         </div>
         <div class="card">
           <div class="imgbox">
-            <img src={image6} alt="" />
+            <img alt='Star Harvest Exim logo' src={image6} />
           </div>
           <div>
             <span className="content-text">Turmerics</span>
@@ -141,7 +141,7 @@ const Products = () => {
       <div style={{ marginTop: "5rem" }} className="product-content">
         <div class="card">
           <div class="imgbox">
-            <img src={image7} alt="" />
+            <img alt='Star Harvest Exim logo' src={image7} />
           </div>
           <div>
             <span className="content-text">Black Sesame</span>
@@ -158,7 +158,7 @@ const Products = () => {
         </div>
         <div class="card">
           <div class="imgbox">
-            <img src={image8} alt="" />
+            <img alt='Star Harvest Exim logo' src={image8} />
           </div>
           <div>
             <span className="content-text">White Sesame</span>

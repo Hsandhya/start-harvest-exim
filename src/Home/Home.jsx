@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Button, Carousel, FloatButton } from "antd";
+import { Carousel, FloatButton } from "antd";
 import "./home.css";
 import { useNavigate } from "react-router-dom";
 
@@ -98,33 +98,30 @@ const Home = () => {
         <Carousel autoplay effect="fade">
           <div>
             <h3 style={contentStyle}>
-              <img
+              <img alt='Star Harvest Exim logo'
                 onClick={function1}
                 className="carousel-image3"
                 src={homeImage3}
-                alt=""
                 style={{cursor:'pointer'}}
               />
             </h3>
           </div>
           <div>
             <h3 style={contentStyle}>
-              <img
+              <img alt='Star Harvest Exim logo'
                 onClick={function2}
                 className="carousel-image2"
                 src={homeImage1}
-                alt=""
                 style={{cursor:'pointer'}}
               />
             </h3>
           </div>
           <div>
             <h3 style={contentStyle}>
-              <img
+              <img alt='Star Harvest Exim logo'
                 onClick={function3}
                 className="carousel-image3"
                 src={homeImage2}
-                alt=""
                 style={{cursor:'pointer'}}
               />
             </h3>
@@ -135,17 +132,17 @@ const Home = () => {
         <Carousel afterChange={onChange} autoplay>
           <div>
             <h3 style={contentStyleM}>
-              <img style={{ width: "100%" }} onClick={click1} src={MhomeImage2} alt="" />
+              <img alt='Star Harvest Exim logo' style={{ width: "100%" }} onClick={click1} src={MhomeImage2}/>
             </h3>
           </div>
           <div>
             <h3 style={contentStyleM}>
-              <img style={{ width: "100%" }} onClick={click2} src={MhomeImage1} />
+              <img alt='Star Harvest Exim logo' style={{ width: "100%" }} onClick={click2} src={MhomeImage1} />
             </h3>
           </div>
           <div>
             <h3 style={contentStyleM}>
-              <img style={{ width: "100%" }} onClick={click3} src={MhomeImage3} />
+              <img alt='Star Harvest Exim logo' style={{ width: "100%" }} onClick={click3} src={MhomeImage3} />
             </h3>
           </div>
         </Carousel>

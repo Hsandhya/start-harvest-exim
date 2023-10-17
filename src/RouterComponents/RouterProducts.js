@@ -44,12 +44,12 @@ const RouterProducts = () => {
           }}
         >
           <div class="gallery">
-            <img src={onion1} alt="a wolf" />
-            <img src={onion2} alt="a lioness" />
+            <img alt='Star Harvest Exim logo' src={onion1} />
+            <img alt='Star Harvest Exim logo' src={onion2}/>
           </div>
           <div className="right-pane">
             <h4>
-              ONIONS <img style={{ width: "8%" }} src={line} />
+              ONIONS <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
             </h4>
             <h2>The Flavorful Foundation of Your Dishes</h2>
             <p>
@@ -67,12 +67,12 @@ const RouterProducts = () => {
           }}
         >
           <div class="gallery">
-            <img src={gnuts1} alt="a wolf" />
-            <img src={gnuts2} alt="a lioness" />
+            <img alt='Star Harvest Exim logo' src={gnuts1} />
+            <img alt='Star Harvest Exim logo' src={gnuts2}/>
           </div>
           <div className="right-pane">
             <h4>
-              PEANUTS <img style={{ width: "8%" }} src={line} />
+              PEANUTS <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
             </h4>
             <h2>Experience the Crunchy Deliciousness of Peanuts</h2>
             <p>
@@ -90,12 +90,12 @@ const RouterProducts = () => {
           }}
         >
           <div class="gallery">
-            <img src={garlic1} alt="a wolf" />
-            <img src={garlic2} alt="a lioness" />
+            <img alt='Star Harvest Exim logo' src={garlic1} />
+            <img alt='Star Harvest Exim logo' src={garlic2} />
           </div>
           <div className="right-pane">
             <h4>
-              GARLICS <img style={{ width: "8%" }} src={line} />
+              GARLICS <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
             </h4>
             <h2>Unlock the Rich Flavors of Garlic with Star Harvest Exim</h2>
             <p>
@@ -113,12 +113,12 @@ const RouterProducts = () => {
           }}
         >
           <div class="gallery">
-            <img src={turm1} alt="a wolf" />
-            <img src={turm2} alt="a lioness" />
+            <img alt='Star Harvest Exim logo' src={turm1}  />
+            <img alt='Star Harvest Exim logo' src={turm2} />
           </div>
           <div className="right-pane">
             <h4>
-              TURMERICS <img style={{ width: "8%" }} src={line} />
+              TURMERICS <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
             </h4>
             <h2>
               Experience the Vibrant Flavors of Turmeric with Star Harvest Exim
@@ -138,12 +138,12 @@ const RouterProducts = () => {
           }}
         >
           <div class="gallery">
-            <img src={coco1} alt="a wolf" />
-            <img src={coco2} alt="a lioness" />
+            <img alt='Star Harvest Exim logo' src={coco1} />
+            <img alt='Star Harvest Exim logo' src={coco2} />
           </div>
           <div className="right-pane">
             <h4>
-              COCONUTS <img style={{ width: "8%" }} src={line} />
+              COCONUTS <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
             </h4>
             <h2>
               Indulge in the Tropical Delights of Coconut with Star Harvest Exim
@@ -164,12 +164,12 @@ const RouterProducts = () => {
           }}
         >
           <div class="gallery">
-            <img src={cnuts1} alt="a wolf" />
-            <img src={cnuts2} alt="a lioness" />
+            <img alt='Star Harvest Exim logo' src={cnuts1} />
+            <img alt='Star Harvest Exim logo' src={cnuts2} />
           </div>
           <div className="right-pane">
             <h4>
-              CASHEW NUTS <img style={{ width: "8%" }} src={line} />
+              CASHEW NUTS <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
             </h4>
             <h2>Discover the Delightful Crunch of Premium Cashews</h2>
             <p>
@@ -187,12 +187,12 @@ const RouterProducts = () => {
           }}
         >
           <div class="gallery">
-            <img src={bsame2} alt="a wolf" />
-            <img src={bsame1} alt="a lioness" />
+            <img alt='Star Harvest Exim logo' src={bsame2} />
+            <img alt='Star Harvest Exim logo' src={bsame1} />
           </div>
           <div className="right-pane">
             <h4>
-              BLACK SESAME <img style={{ width: "8%" }} src={line} />
+              BLACK SESAME <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
             </h4>
             <h2>
               Discover the hidden gems of nutrition and flavor with our black
@@ -214,12 +214,12 @@ const RouterProducts = () => {
           }}
         >
           <div class="gallery">
-            <img src={wsame1} alt="a wolf" />
-            <img src={wsame2} alt="a lioness" />
+            <img alt='Star Harvest Exim logo' src={wsame1} />
+            <img alt='Star Harvest Exim logo' src={wsame2} />
           </div>
           <div className="right-pane">
             <h4>
-              WHITE SESAME <img style={{ width: "8%" }} src={line} />
+              WHITE SESAME <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
             </h4>
             <h2>
               Elevate your culinary creations with the pure goodness of our
@@ -237,7 +237,7 @@ const RouterProducts = () => {
         <div className="Rproduct-content">
           <div class="Rcard">
             <div class="Rimgbox">
-              <img src={image1} alt="" />
+              <img alt='Star Harvest Exim logo' src={image1} />
             </div>
             <div>
               <span className="Rcontent-text">Ground Nuts</span>
@@ -258,7 +258,7 @@ const RouterProducts = () => {
         <div className="Rproduct-content">
           <div class="Rcard">
             <div class="Rimgbox">
-              <img src={image2} alt="" />
+              <img alt='Star Harvest Exim logo' src={image2} />
             </div>
             <div>
               <span className="Rcontent-text">Onions</span>
@@ -278,7 +278,7 @@ const RouterProducts = () => {
         <div className="Rproduct-content">
           <div class="Rcard">
             <div class="Rimgbox">
-              <img src={image3} alt="" />
+              <img alt='Star Harvest Exim logo' src={image3}/>
             </div>
             <div>
               <span className="Rcontent-text">Garlics</span>
@@ -298,7 +298,7 @@ const RouterProducts = () => {
         <div className="Rproduct-content">
           <div class="Rcard">
             <div class="Rimgbox">
-              <img src={image4} alt="" />
+              <img alt='Star Harvest Exim logo' src={image4}/>
             </div>
             <div>
               <span className="Rcontent-text">Coconuts</span>
@@ -320,7 +320,7 @@ const RouterProducts = () => {
         <div className="Rproduct-content">
           <div class="Rcard">
             <div class="Rimgbox">
-              <img src={image5} alt="" />
+              <img alt='Star Harvest Exim logo' src={image5} />
             </div>
             <div>
               <span className="Rcontent-text">Cashews</span>
@@ -341,7 +341,7 @@ const RouterProducts = () => {
         <div className="Rproduct-content">
           <div class="Rcard">
             <div class="Rimgbox">
-              <img src={image6} alt="" />
+              <img alt='Star Harvest Exim logo' src={image6} />
             </div>
             <div>
               <span className="Rcontent-text">Turmerics</span>
@@ -363,7 +363,7 @@ const RouterProducts = () => {
         <div className="Rproduct-content">
           <div class="Rcard">
             <div class="Rimgbox">
-              <img src={wsame2} alt="" />
+              <img alt='Star Harvest Exim logo' src={wsame2}/>
             </div>
             <div>
               <span className="Rcontent-text">White Sesame</span>
@@ -384,7 +384,7 @@ const RouterProducts = () => {
         <div className="Rproduct-content">
           <div class="Rcard">
             <div class="Rimgbox">
-              <img src={bsame2} alt="" />
+              <img alt='Star Harvest Exim logo' src={bsame2} />
             </div>
             <div>
               <span className="Rcontent-text">Black Sesame</span>

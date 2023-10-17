@@ -29,7 +29,7 @@ const Navbar = () => {
     <div>
       <Router>
         <header className="nav-header">
-          <img className="logo" src={logo} alt="logo" style={{ width: "3%" }} />
+          <img alt='star harvest exim logo' className="logo" src={logo} style={{ width: "3%" }} />
           <nav>
             <ul className="nav_links">
               <li>
@@ -83,10 +83,9 @@ const Navbar = () => {
         </header>
         <header className="nav-header-mobile">
           <div>
-            <img
+            <img alt='star harvest exim logo'
               className="logo"
               src={logo}
-              alt="logo"
               style={{ width: "3%" }}
             />
           </div>

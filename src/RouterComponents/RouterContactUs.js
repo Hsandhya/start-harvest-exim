@@ -23,8 +23,8 @@ const RouterContactUs = () => {
      
     <h3 style={{ textAlign: "center" }}>
           {"  "}
-          <img style={{ width: "15%" }} src={line2} alt="" /> Contact Us{" "}
-          <img style={{ width: "15%" }} src={line1} alt="" />
+          <img alt='Star Harvest Exim logo' style={{ width: "15%" }} src={line2}/> Contact Us{" "}
+          <img alt='Star Harvest Exim logo' style={{ width: "15%" }} src={line1}/>
         </h3>
       <h2 style={{color:'green'}}>If You Have Any Query, Please Contact Us</h2>
       </div>
