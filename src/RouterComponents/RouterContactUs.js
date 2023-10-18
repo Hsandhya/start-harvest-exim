@@ -1,15 +1,60 @@
 import React from 'react'
-import { Form,Input,Button } from 'antd'
 import "./RouterComponent.css";
 import {InstagramOutlined,FacebookFilled,MailFilled,PhoneFilled} from '@ant-design/icons'
 import {MdLocationPin} from 'react-icons/md'
 import line1 from "../assets/line.png";
 import line2 from "../assets/line2.png";
+import emailjs from "@emailjs/browser";
+import { useRef,useState } from "react";
+import { notification } from "antd";
 
 
 const RouterContactUs = () => {
+
+  const [api, contextHolder] = notification.useNotification();
+  const [name, setName] = useState('')
+  const [email, setEmail] = useState('')
+  const [phnNumber, setPhnNumber] = useState('')
+  const [message, setMessage] = useState('')
+
+  const success = () => {
+    api.open({
+      type: "success",
+      message: "Thanks for reaching us",
+    });
+  };
+
+  const clear =()=>
+  {
+    setEmail('')
+      setMessage('')
+      setPhnNumber('')
+      setName('')
+  }
+
+  
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm( "service_bbothrv",
+    "template_0skrxba",
+    form.current,
+    "UoRI0rA1tpPngVnFe")
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      success()
+      clear()
+  };
   return (
     <>
+    {contextHolder}
      <div className='router-main'>
      <div className="image-class" style={{ height: "100%" }}>
           <div className="inner-text">
@@ -56,24 +101,15 @@ const RouterContactUs = () => {
     </div>
     <div className="co-right">
                <h3 style={{color:'green'}}>GET IN TOUCH</h3>
-                <Form>
-                  <Form.Item>
-                    <Input placeholder='Your Name'></Input>
-                  </Form.Item>
-                  
-                  <Form.Item>
-                    <Input placeholder='Subject'></Input>
-                  </Form.Item>
-                  <Form.Item>
-                    <Input placeholder='Email' type='email'></Input>
-                  </Form.Item>
-                  <Form.Item>
-                <textarea placeholder='Message' name="" id="" cols="30" rows="10" ></textarea>  
-                </Form.Item>
-                <div className='submit-button'>
-                <Button style={{background:'green', color:'white'}}>Submit</Button>
-                </div>
-                </Form>
+               <form ref={form} onSubmit={sendEmail} >
+      <input type="text" name="from_name" placeholder=" Your name" required value={name} onChange={(e) => setName(e.target.value)}/>
+      <input type="email" name="from_email" placeholder=" Email" required value={email} onChange={(e) => setEmail(e.target.value)} />
+      <input type="number" name="from_phoneNumber" placeholder=" Phone Number" required value={phnNumber} onChange={(e) => setPhnNumber(e.target.value)} />
+      <textarea name="message" rows="10" placeholder=" Message" required value={message} onChange={(e) => setMessage(e.target.value)}/>
+      <div className="form-button">
+      <button type="submit" >Submit</button>
+      </div>
+    </form>
                 
                </div>
 
