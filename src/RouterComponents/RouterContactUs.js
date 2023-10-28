@@ -89,7 +89,7 @@ const RouterContactUs = () => {
                     </li>
                     <li>
                         <span>{<MailFilled/>} </span>
-                        <span>starharvest.contact@gmail.com</span>
+                        <span>info@starharvestexim.com</span>
                     </li>
                 </ul>
                <div className='social-link'> 

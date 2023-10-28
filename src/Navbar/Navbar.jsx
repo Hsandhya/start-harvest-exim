@@ -1,13 +1,14 @@
 import "./Navbar.css";
 import Home from "../Home/Home";
-import { Button, Drawer, FloatButton } from "antd";
-import { ArrowUpOutlined, MenuOutlined } from "@ant-design/icons";
+import { Button, Drawer } from "antd";
+import { MenuOutlined } from "@ant-design/icons";
 import {
   HashRouter as Router,
   Routes,
   Route,
   NavLink,
 } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 import RouterAboutUs from "../RouterComponents/RouterAboutUs";
 import RouterContactUs from "../RouterComponents/RouterContactUs";
 import RouterCertificates from "../RouterComponents/RouterCertificates";
@@ -18,6 +19,7 @@ import { useState } from "react";
 
 const Navbar = () => {
   const [open, setOpen] = useState(false);
+  // const navigate = useNavigate();
 
   const drawerOpen = () => {
     setOpen(true);
@@ -25,11 +27,17 @@ const Navbar = () => {
   const onClose = () => {
     setOpen(false);
   };
+
+  const goHome =()=>
+  {
+    window.location.href = '/';
+
+  }
   return (
     <div>
       <Router>
         <header className="nav-header">
-          <img alt='star harvest exim logo' className="logo" src={logo} style={{ width: "3%" }} />
+          <img  onClick={goHome} alt='star harvest exim logo' className="logo" src={logo} style={{ width: "3%" }} />
           <nav>
             <ul className="nav_links">
               <li>
@@ -87,6 +95,7 @@ const Navbar = () => {
               className="logo"
               src={logo}
               style={{ width: "3%" }}
+              onClick={goHome}
             />
           </div>
           <div>

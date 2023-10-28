@@ -1,3 +1,4 @@
+import { useNavigate } from "react-router-dom";
 import React from "react";
 import "./RouterComponent.css";
 import aboutImage from "../assets/About.png";
@@ -7,6 +8,12 @@ import icon2 from "../assets/icons8-binoculars-64.png";
 import { Button } from "antd";
 
 const RouterAboutUs = () => {
+  const navigate = useNavigate();
+
+  const exploreClick = () => {
+    navigate("/products");
+  };
+
   return (
     <div>
       <div className="router-main">
@@ -20,11 +27,20 @@ const RouterAboutUs = () => {
         <div>
           <div className="about-main">
             <div className="left-pane">
-              <img alt='Star Harvest Exim logo' className="about-image" src={aboutImage} />
+              <img
+                alt="Star Harvest Exim logo"
+                className="about-image"
+                src={aboutImage}
+              />
             </div>
             <div className="right-pane">
               <h4>
-                About Us <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
+                About Us{" "}
+                <img
+                  alt="Star Harvest Exim logo"
+                  style={{ width: "8%" }}
+                  src={line}
+                />
               </h4>
               <h2>Know About Our Exports & Imports</h2>
               <p>
@@ -36,7 +52,7 @@ const RouterAboutUs = () => {
               </p>
               <div style={{ display: "flex" }}>
                 <div>
-                  <img alt='Star Harvest Exim logo' src={icon1} />
+                  <img alt="Star Harvest Exim logo" src={icon1} />
                   <h4>Product Quality</h4>
                   <p style={{ color: "green" }}>
                     We can assure you about the Quality of the products in
@@ -44,7 +60,7 @@ const RouterAboutUs = () => {
                   </p>
                 </div>
                 <div>
-                  <img alt='Star Harvest Exim logo' src={icon2} />
+                  <img alt="Star Harvest Exim logo" src={icon2} />
                   <h4>Dedicated Services</h4>
                   <p style={{ paddingRight: "20px", color: "green" }}>
                     We ensure that providing the best and premium services
@@ -53,6 +69,7 @@ const RouterAboutUs = () => {
               </div>
               <div className="about-button">
                 <Button
+                  onClick={exploreClick}
                   style={{
                     background: "green",
                     color: "white",
