@@ -6,6 +6,12 @@ import image3 from "../assets/pexels-nick-collins-1392585.jpg";
 import image4 from "../assets/pexels-samer-daboul-1652002.jpg";
 import image5 from "../assets/Cashew.png";
 import image6 from "../assets/pexels-tamanna-rumee-7988015.jpg";
+import image7 from "../assets/idlyRice.jpg";
+import image8 from "../assets/sambaRice.jpg";
+import image9 from "../assets/Ponni Rice.jpg";
+import image10 from "../assets/moongDal.jpg";
+import image11 from "../assets/toorDal.jpg";
+
 
 import line from "../assets/line.png";
 import onion1 from "../assets/onion-1565604_1280.jpg";
@@ -24,6 +30,16 @@ import bsame1 from "../assets/black-sesame-6746593_1280.jpg";
 import bsame2 from "../assets/food-6080815_1280.jpg";
 import wsame1 from "../assets/sesame-1274906_1280.jpg";
 import wsame2 from "../assets/sesame-3311532_1280.jpg";
+import samba1 from '../assets/samba rice.jpg'
+import samba2 from '../assets/samba.jpg'
+import idlyRice1 from '../assets/idly rice1.jpg'
+import idlyRice2 from '../assets/Idli-Rice2.jpg'
+import toor1 from '../assets/toor-dal1.jpg'
+import toor2 from '../assets/toor dal2.jpg'
+import moong1 from '../assets/moong dal1.jpeg'
+import moong2 from '../assets/moong dal2.jpeg'
+import ponni1 from '../assets/Ponni rice1.jpg'
+import ponni2 from '../assets/ponnin-rice2.jpg'
 
 const RouterProducts = () => {
   return (
@@ -232,6 +248,117 @@ const RouterProducts = () => {
             </p>
           </div>
         </div>
+        <div
+          style={{
+            display: "flex",
+            padding: "1rem",
+            justifyContent: "space-around",
+          }}
+        >
+          <div class="gallery">
+            <img alt='Star Harvest Exim logo' src={idlyRice1} />
+            <img alt='Star Harvest Exim logo' src={idlyRice2}/>
+          </div>
+          <div className="right-pane">
+            <h4>
+            PARBOILED RICE / IDLY RICE <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
+            </h4>
+            <h2>Start your day with perfection</h2>
+            <p>
+              "Idly Rice is specially milled for making soft and fluffy idlis, a breakfast favorite in South India. Its quality ensures your idlis turn out perfect every time."{" "}
+            </p>
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            padding: "1rem",
+            justifyContent: "space-around",
+            flexDirection: "row-reverse",
+          }}
+        >
+          <div class="gallery">
+            <img alt='Star Harvest Exim logo' src={ponni1} />
+            <img alt='Star Harvest Exim logo' src={ponni2} />
+          </div>
+          <div className="right-pane">
+            <h4>
+              PONNI RICE <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
+            </h4>
+            <h2>
+            Discover the rich traditions of South India with our Ponni Rice.
+            </h2>
+            <p>
+              "Our Ponni Rice is renowned for its slender grains, delicate aroma, and exceptional taste. It's a staple in South Indian cuisine, known for its versatility in preparing a wide range of dishes."
+            </p>
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            padding: "1rem",
+            justifyContent: "space-around",
+          }}
+        >
+          <div class="gallery">
+            <img alt='Star Harvest Exim logo' src={samba1} />
+            <img alt='Star Harvest Exim logo' src={samba2}/>
+          </div>
+          <div className="right-pane">
+            <h4>
+              SAMBA RICE <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
+            </h4>
+            <h2>Samba Rice - where fragrance meets flavor, making your meals truly exceptional.</h2>
+            <p>
+              "Samba Rice, also known as BPT Rice, is cherished for its unique fragrance and distinct taste. It's a favorite choice for biryanis and other aromatic dishes"{" "}
+            </p>
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            padding: "1rem",
+            justifyContent: "space-around",
+            flexDirection: "row-reverse",
+          }}
+        >
+          <div class="gallery">
+            <img alt='Star Harvest Exim logo' src={moong1} />
+            <img alt='Star Harvest Exim logo' src={moong2} />
+          </div>
+          <div className="right-pane">
+            <h4>
+              MOONG DAL <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
+            </h4>
+            <h2>
+            Elevate your cooking with the purity of Moong Dal, making your dishes not just delicious but also wholesome.
+            </h2>
+            <p>
+              "Moong Dal, or split green gram, is a versatile ingredient in various Indian cuisines. Its mild flavor and quick cooking time make it a favorite for soups, stews, and curries."
+            </p>
+          </div>
+        </div>
+        <div
+          style={{
+            display: "flex",
+            padding: "1rem",
+            justifyContent: "space-around",
+          }}
+        >
+          <div class="gallery">
+            <img alt='Star Harvest Exim logo' src={toor1} />
+            <img alt='Star Harvest Exim logo' src={toor2}/>
+          </div>
+          <div className="right-pane">
+            <h4>
+              TOOR DAL <img alt='Star Harvest Exim logo' style={{ width: "8%" }} src={line} />
+            </h4>
+            <h2>Nourish your family with the goodness of Toor Dal - where health and taste blend seamlessly.</h2>
+            <p>
+              "Toor Dal, also known as Pigeon Peas, is a rich source of protein and essential nutrients. It's a staple in Indian kitchens, perfect for lentil soups and dals."{" "}
+            </p>
+          </div>
+        </div>
       </div>
       <div className="Rproduct-mobile">
         <div className="Rproduct-content">
@@ -399,6 +526,102 @@ const RouterProducts = () => {
                 Black sesame seeds are a versatile ingredient in both sweet and
                 savory dishes. you're choosing the best for your culinary
                 creations.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="Rproduct-content">
+          <div class="Rcard">
+            <div class="Rimgbox">
+              <img alt='Star Harvest Exim logo' src={image7} />
+            </div>
+            <div>
+              <span className="Rcontent-text">Parboiled Rice / Idly Rice</span>
+            </div>
+
+            <div class="Rcontent">
+              <h2 style={{ fontSize: "15px" }}>
+              Start your day with perfection
+              </h2>
+              <p style={{ fontSize: "13px", fontWeight: "500" }}>
+              Idly Rice is specially milled for making soft and fluffy idlis, a breakfast favorite in South India. Its quality ensures your idlis turn out perfect every time.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="Rproduct-content">
+          <div class="Rcard">
+            <div class="Rimgbox">
+              <img alt='Star Harvest Exim logo' src={image8} />
+            </div>
+            <div>
+              <span className="Rcontent-text">Samba Rice</span>
+            </div>
+
+            <div class="Rcontent">
+              <h2 style={{ fontSize: "15px" }}>
+              Samba Rice - where fragrance meets flavor.
+              </h2>
+              <p style={{ fontSize: "13px", fontWeight: "500" }}>
+              Samba Rice, also known as BPT Rice, is cherished for its unique fragrance and distinct taste. It's a favorite choice for biryanis and other aromatic dishes.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="Rproduct-content">
+          <div class="Rcard">
+            <div class="Rimgbox">
+              <img alt='Star Harvest Exim logo' src={image9} />
+            </div>
+            <div>
+              <span className="Rcontent-text">Ponni Rice</span>
+            </div>
+
+            <div class="Rcontent">
+              <h2 style={{ fontSize: "15px" }}>
+              Discover the rich traditions of South India with our Ponni Rice
+              </h2>
+              <p style={{ fontSize: "13px", fontWeight: "500" }}>
+              Our Ponni Rice is renowned for its slender grains, delicate aroma, and exceptional taste. 
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="Rproduct-content">
+          <div class="Rcard">
+            <div class="Rimgbox">
+              <img alt='Star Harvest Exim logo' src={image10} />
+            </div>
+            <div>
+              <span className="Rcontent-text">Moong Dal</span>
+            </div>
+
+            <div class="Rcontent">
+              <h2 style={{ fontSize: "15px" }}>
+              Elevate your cooking with the purity of Moong Dal.
+              </h2>
+              <p style={{ fontSize: "13px", fontWeight: "500" }}>
+              Moong Dal, or split green gram, is a versatile ingredient in various Indian cuisines. Its mild flavor and quick cooking time make it a favorite for soups, stews, and curries.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="Rproduct-content">
+          <div class="Rcard">
+            <div class="Rimgbox">
+              <img alt='Star Harvest Exim logo' src={image11} />
+            </div>
+            <div>
+              <span className="Rcontent-text">Toor Dal</span>
+            </div>
+
+            <div class="Rcontent">
+              <h2 style={{ fontSize: "15px" }}>
+              Nourish your family with the goodness of Toor Dal.
+              </h2>
+              <p style={{ fontSize: "13px", fontWeight: "500" }}>
+              Toor Dal is a rich source of protein and essential nutrients. It's a staple in Indian kitchens, perfect for lentil soups and dals.
               </p>
             </div>
           </div>

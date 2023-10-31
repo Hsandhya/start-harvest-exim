@@ -93,8 +93,8 @@ const RouterContactUs = () => {
                     </li>
                 </ul>
                <div className='social-link'> 
-            <a href="https://instagram.com/starharvestexim?igshid=MzRlODBiNWFlZA=="><InstagramOutlined /></a>
-              <a href="https://www.facebook.com/Starharvestexim?mibextid=ZbWKwL"><FacebookFilled /></a>
+            <a className="route-button" href="https://instagram.com/starharvestexim?igshid=MzRlODBiNWFlZA=="><InstagramOutlined /></a>
+              <a className="route-button" href="https://www.facebook.com/Starharvestexim?mibextid=ZbWKwL"><FacebookFilled /></a>
               </div>
 
                
@@ -107,7 +107,7 @@ const RouterContactUs = () => {
       <input type="number" name="from_phoneNumber" placeholder=" Phone Number" required value={phnNumber} onChange={(e) => setPhnNumber(e.target.value)} />
       <textarea name="message" rows="10" placeholder=" Message" required value={message} onChange={(e) => setMessage(e.target.value)}/>
       <div className="form-button">
-      <button type="submit" >Submit</button>
+      <button type="submit" className="route-button">Submit</button>
       </div>
     </form>
                 

@@ -8,24 +8,39 @@ import image3 from "../assets/pexels-nick-collins-1392585.jpg";
 import image4 from "../assets/pexels-samer-daboul-1652002.jpg";
 import image5 from "../assets/Cashew.png";
 import image6 from "../assets/pexels-tamanna-rumee-7988015.jpg";
-import image7 from "../assets/food-6080815_1280.jpg";
-import image8 from "../assets/sesame-1274906_1280.jpg";
+
+import { Button } from "antd";
+import { useNavigate } from "react-router-dom";
 
 const Products = () => {
+  const navigate = useNavigate();
+
+  const exploreClick = () => {
+    navigate("/products");
+  };
   return (
     <div>
       <div className="product-top">
         <h3 style={{ textAlign: "center" }}>
           {" "}
-          <img alt='Star Harvest Exim logo' style={{ width: "15%" }} src={line2} /> Our Products{" "}
-          <img alt='Star Harvest Exim logo' style={{ width: "15%" }} src={line1} />
+          <img
+            alt="Star Harvest Exim logo"
+            style={{ width: "15%" }}
+            src={line2}
+          />{" "}
+          Our Products{" "}
+          <img
+            alt="Star Harvest Exim logo"
+            style={{ width: "15%" }}
+            src={line1}
+          />
         </h3>
         <h1 style={{ color: "green" }}>Healthy products for day-to-day life</h1>
       </div>
       <div className="product-content">
         <div class="card">
           <div class="imgbox">
-            <img alt='Star Harvest Exim logo' src={image1} />
+            <img alt="Star Harvest Exim logo" src={image1} />
           </div>
           <div>
             <span className="content-text">Peanuts</span>
@@ -44,7 +59,7 @@ const Products = () => {
         </div>
         <div class="card">
           <div class="imgbox">
-            <img alt='Star Harvest Exim logo' src={image2}/>
+            <img alt="Star Harvest Exim logo" src={image2} />
           </div>
           <div>
             <span className="content-text">Onions</span>
@@ -62,7 +77,7 @@ const Products = () => {
         </div>
         <div class="card">
           <div class="imgbox">
-            <img alt='Star Harvest Exim logo' src={image3} />
+            <img alt="Star Harvest Exim logo" src={image3} />
           </div>
           <div>
             <span className="content-text">Garlics</span>
@@ -82,7 +97,7 @@ const Products = () => {
       <div style={{ marginTop: "5rem" }} className="product-content">
         <div class="card">
           <div class="imgbox">
-            <img alt='Star Harvest Exim logo' src={image4} />
+            <img alt="Star Harvest Exim logo" src={image4} />
           </div>
           <div>
             <span className="content-text">Coconuts</span>
@@ -101,7 +116,7 @@ const Products = () => {
         </div>
         <div class="card">
           <div class="imgbox">
-            <img alt='Star Harvest Exim logo' src={image5} />
+            <img alt="Star Harvest Exim logo" src={image5} />
           </div>
           <div>
             <span className="content-text">Cashews</span>
@@ -120,7 +135,7 @@ const Products = () => {
         </div>
         <div class="card">
           <div class="imgbox">
-            <img alt='Star Harvest Exim logo' src={image6} />
+            <img alt="Star Harvest Exim logo" src={image6} />
           </div>
           <div>
             <span className="content-text">Turmerics</span>
@@ -138,42 +153,7 @@ const Products = () => {
           </div>
         </div>
       </div>
-      <div style={{ marginTop: "5rem" }} className="product-content">
-        <div class="card">
-          <div class="imgbox">
-            <img alt='Star Harvest Exim logo' src={image7} />
-          </div>
-          <div>
-            <span className="content-text">Black Sesame</span>
-          </div>
 
-          <div class="content">
-            <h2 style={{ fontSize: "15px" }}>
-            Discover the hidden gems of nutrition and flavor with our black sesame products
-            </h2>
-            <p style={{ fontSize: "13px", fontWeight: "500" }}>
-            Black sesame seeds are a versatile ingredient in both sweet and savory dishes. you're choosing the best for your culinary creations. 
-            </p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="imgbox">
-            <img alt='Star Harvest Exim logo' src={image8} />
-          </div>
-          <div>
-            <span className="content-text">White Sesame</span>
-          </div>
-
-          <div class="content">
-            <h2 style={{ fontSize: "15px" }}>
-              Delightful nutty flavor to your dishes{" "}
-            </h2>
-            <p style={{ fontSize: "13px", fontWeight: "500" }}>
-            Elevate your culinary creations with the pure goodness of our white sesame seeds. Sourced from the finest fields, these seeds are renowned for their quality and versatility.
-            </p>
-          </div>
-        </div>
-      </div>
       <div className="products-mobile">
         <div style={{ marginBottom: "1rem" }} className="parallax-container">
           <div className="parallax-content">
@@ -380,7 +360,8 @@ const Products = () => {
         >
           <div>
             <h2 style={{ color: "green" }}>
-              Discover the hidden gems of nutrition and flavor with our black sesame products
+              Discover the hidden gems of nutrition and flavor with our black
+              sesame products
             </h2>
           </div>
           <div>
@@ -391,7 +372,9 @@ const Products = () => {
                 fontStyle: "italic",
               }}
             >
-              "Black sesame seeds are a versatile ingredient in both sweet and savory dishes. you're choosing the best for your culinary creations."
+              "Black sesame seeds are a versatile ingredient in both sweet and
+              savory dishes. you're choosing the best for your culinary
+              creations."
             </h4>
           </div>
         </div>
@@ -410,7 +393,7 @@ const Products = () => {
         >
           <div>
             <h2 style={{ color: "green" }}>
-            Delightful nutty flavor to your dishes
+              Delightful nutty flavor to your dishes
             </h2>
           </div>
           <div>
@@ -421,10 +404,22 @@ const Products = () => {
                 fontStyle: "italic",
               }}
             >
-              "Elevate your culinary creations with the pure goodness of our white sesame seeds. Sourced from the finest fields, these seeds are renowned for their quality and versatility.".
+              "Elevate your culinary creations with the pure goodness of our
+              white sesame seeds. Sourced from the finest fields, these seeds
+              are renowned for their quality and versatility.".
             </h4>
           </div>
         </div>
+      
+      </div>
+      <div className="product-button">
+        <Button
+          className="route-button"
+          onClick={exploreClick}
+          style={{ background: "green", color: "white", width: "10rem" }}
+        >
+          View all Products
+        </Button>
       </div>
     </div>
   );

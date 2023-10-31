@@ -64,10 +64,10 @@ const Footer = () => {
                 </li>
               </ul>
               <div className="social-link">
-                <a href="https://instagram.com/starharvestexim?igshid=MzRlODBiNWFlZA==">
+                <a className="route-button" href="https://instagram.com/starharvestexim?igshid=MzRlODBiNWFlZA==">
                   <InstagramOutlined />
                 </a>
-                <a href="https://www.facebook.com/Starharvestexim?mibextid=ZbWKwL">
+                <a className="route-button" href="https://www.facebook.com/Starharvestexim?mibextid=ZbWKwL">
                   <FacebookFilled />
                 </a>
               </div>

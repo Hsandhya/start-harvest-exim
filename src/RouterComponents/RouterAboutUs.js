@@ -70,6 +70,7 @@ const RouterAboutUs = () => {
               <div className="about-button">
                 <Button
                   onClick={exploreClick}
+                className="route-button"
                   style={{
                     background: "green",
                     color: "white",

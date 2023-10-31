@@ -41,7 +41,7 @@ const About = () => {
           </div>
           </div>
           <div className='about-button'>
-            <Button onClick={exploreClick} style={{background:'green',color:'white',width:'10rem'}}>Explore now</Button>
+            <Button className="route-button" onClick={exploreClick} style={{background:'green',color:'white',width:'10rem'}}>Explore now</Button>
           </div>
       </div>
 
