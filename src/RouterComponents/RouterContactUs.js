@@ -39,10 +39,10 @@ const RouterContactUs = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm( "service_bbothrv",
-    "template_0skrxba",
+    emailjs.sendForm( "service_de4srhk",
+    "template_aobnv3h",
     form.current,
-    "UoRI0rA1tpPngVnFe")
+    "ROjGpmJHc-xuRtbYt")
       .then((result) => {
           console.log(result.text);
       }, (error) => {
