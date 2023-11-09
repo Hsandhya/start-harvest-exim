@@ -1,5 +1,10 @@
 import React from 'react'
-import certificate from '../assets/certificate.jpg'
+import certificate1 from '../assets/STAR HARVEST EXIM - IEC_page-0001.jpg'
+import certificate2 from '../assets/Udyam Registration Certificate_page-0001.jpg'
+import certificate3 from '../assets/Udyam Registration Certificate_page-0002.jpg'
+import certificate4 from '../assets/RCMC FIEO_page-0001.jpg'
+
+
 import '../Certificates/certificates.css'
 
 const Certificates = () => {
@@ -14,7 +19,10 @@ const Certificates = () => {
           </div>
         </div>
        <div className='certificate'>
-        <img src={certificate} alt='certificate'></img>
+        <img className='certificate-img' src={certificate1} alt='certificate'></img>
+        <img className='certificate-img'src={certificate2} alt='certificate'></img>
+        <img className='certificate-img' src={certificate3} alt='certificate'></img>
+        <img className='certificate-img' src={certificate4} alt='certificate'></img>
        </div>
         
         </div>
